@@ -41,7 +41,7 @@ namespace Labb_4_Collection_generics
 
             Employee E5 = new Employee
             {
-                ID = 4,
+                ID = 5,
                 Name = "Jennifer Nilsson",
                 Gender = "Female",
                 Salary = 80800
@@ -55,6 +55,7 @@ namespace Labb_4_Collection_generics
             stEmp.Push(E2);
             stEmp.Push(E3);
             stEmp.Push(E4);
+            stEmp.Push(E5);
 
             //Print all stacks
             Console.WriteLine("Print all stack");
@@ -84,6 +85,7 @@ namespace Labb_4_Collection_generics
             stEmp.Push(E2);
             stEmp.Push(E3);
             stEmp.Push(E4);
+            stEmp.Push(E5);
 
             //Peek can only Peek info
             Console.WriteLine("----- Peek ----");
